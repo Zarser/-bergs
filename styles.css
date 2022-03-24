@@ -1,26 +1,52 @@
 body{
     background-color: rgba(40,40,40,1);
 }
-#heading-color{
-    color: #FFF;
+a.h1{
+    text-shadow: 0 0 3px rgba(210,84,20,1);
 }
-#nav-sticky{
-    background-color: rgba(40,40,40,1);
-}
-#font-li{
-    padding: 0 0 10px 0 ;
-}
-#font-li > li > a{
+a{
     color: rgba(210,84,20,1);
 }
-#font-li > li > a:hover{
-    color: #FFF;
-    transform: scale(1.1);
-    transition: 0.3s;
+.offcanvas-body > ul > li{
+    color: rgba(210,84,20,1);
 }
-#card-div{
-    padding: 30px 0 0 0;
+.container{
+    margin: 30px 0 0 0;
 }
 #mail-form{
     color: #fff;
+}
+#tm{
+    color: #FFF;
+    text-align: center;
+    color: #000;
+}
+#tm > ion-icon{
+    font-size: 18px; 
+    color: #000;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+}
+.card{
+    height: 594px;
+    overflow: auto;
+    border: 4px solid rgba(210,84,20,1);
+}
+form{
+    padding: 5px 0 0 0;
+}
+#nav-links{
+    margin: 0 75px 0 0 ;
+}
+#bottom-border{
+    border-bottom: 4px solid rgba(210,84,20,1);
+    
+}
+#border-top{
+    border-top: 4px solid rgba(210,84,20,1);
+}
+#lack{
+    border: 4px solid rgba(210,84,20,1);
+    background-color: #fff;
 }
